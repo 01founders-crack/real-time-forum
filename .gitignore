@@ -1,0 +1,72 @@
+# Go specific
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.test
+*.out
+
+# Go module files
+#go.mod
+#go.sum
+
+# JavaScript/Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+*.log
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS file attributes
+Icon?
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows image file caches
+*.stackdump
+
+# Windows Installer files
+*.msi
+*.msm
+*.msp
+
+# General IDE and OS files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.lock
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (e.g., IntelliJ, GoLand, WebStorm, etc.)
+.idea/
+*.iml
+
+# Optional Git ignore for system-specific executable files
+*.exe
+*.dll
+*.so
+
+# Temporary files
+*.tmp
+*.log
+*.pid
+*.seed
+*.gz
+*.zip

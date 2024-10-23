@@ -1,0 +1,276 @@
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    font-size: 18px;
+}
+
+.login {
+    flex: 0 0 35%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e6e8;
+}
+
+#Ibraheem {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    display: flex;
+    padding: 20px;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.login h1 {
+    margin-bottom: 10px;
+    font-size:2rem;
+}
+
+.login p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+
+.login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: fit-content;
+    width: 75%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display:flex;
+    font-size: .75rem;
+    justify-content: center;
+    align-items: center;
+}
+.options label input {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
+}
+
+.options a {
+    font-size: .75rem;
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.login button {
+    padding: 10px;
+    width: 75%;
+    max-width: 600px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 600px;
+}
+
+.social-login button {
+    padding: 10px;
+    flex: 1;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login .facebook {
+    background-color: #3b5998;
+    color: white;
+    font-size: 1rem;
+}
+
+.social-login .twitter {
+    background-color: #1da1f2;
+    color: white;
+    font-size: 1rem;
+}
+
+.social-login .github {
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+}
+
+.image {
+    flex: 0 0 65%;
+    background: url('../images/tech-forum.jpg') no-repeat center center;
+    background-size: cover;
+   
+}
+
+.image .text {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.signup-form {
+    
+    flex: 0 0 35%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaedef;
+    
+}
+
+#Lotfi {
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+    position: relative;
+    width: 75%;
+    max-width: 600px;
+    display: flex;
+    flex: stretch;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signup-form h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.signup-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 75%;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.signup-form select {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 75%;
+    font-size: 1.2rem;
+}
+
+.signup-form button {
+    padding: 10px;
+    width: 75%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-login button {
+    padding: 10px;
+    flex: 1;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.social-login .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-login .twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.social-login .github {
+    background-color: #333;
+    color: white;
+}
+
+

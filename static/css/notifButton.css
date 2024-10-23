@@ -1,0 +1,32 @@
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.icon-button:hover {
+    cursor: pointer;
+    background: #cccccc;
+}
+
+.icon-button__badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

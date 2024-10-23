@@ -1,0 +1,49 @@
+.categories {
+    width: 250px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: fit-content;
+    /* margin-left: 5px; */
+    /* Space between categories and feed container */
+    /* flex-shrink: 0; */
+    /* Prevent the categories from shrinking */
+}
+
+.categories h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.categories ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    margin-bottom: 10px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.categories ul li a:hover {
+    color: #007BFF;
+    /* Change the color on hover */
+}
+
+.main-container {
+    justify-content: flex-start;
+    /* Align items to the start */
+    margin-top: 20px;
+    /* Add a margin to push the content below the header */
+    padding-left: 0;
+    /* Remove left padding to align categories with screen edge */
+}

@@ -1,0 +1,37 @@
+#userList {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: fit-content;
+    justify-self: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.online {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: orangered;
+}
+
+
+.offline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: navy;
+}
+
+#userList h2 {
+    text-align: center;
+    font-size: 1.5rem;
+} 
+
+#userList p {
+    font-size: 1.2rem;
+}

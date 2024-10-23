@@ -1,0 +1,125 @@
+#addPost {
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    transform: translate(-50%,0%);
+    left:50%;
+}
+
+#midTop {
+    height: 50px;
+    overflow: visible;
+}
+
+
+
+#feed-container {
+    position: relative;
+    transform: translate(-50%,0%);
+    left:50%;
+    justify-content: center;
+    grid-area: feed;
+    /* Center the container */
+    width: 100%;
+    /* Set a fixed width */
+    background: #fff;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    overflow-y: scroll;
+    /* Optional: if you want to allow scrolling within the feed */
+    /* max-height: calc(100vh - 140px); */
+    /* Height of Area layout */
+    /* flex-grow: 0; */
+    /* Ensure it doesn't grow to fill available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    /* Center the feed container within the main-container */
+}
+
+.post-card {
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #ccc;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.post-details {
+    font-size: 0.8rem;
+    background-color: #aaa;
+    padding: 5px;
+}
+
+.post-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.postTitle {
+    font-size: 2rem;
+    padding: 5px;
+    background-color: #aaa;
+}
+
+.postBody {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 10px;
+    background-color: #aaa;
+}
+
+.commentBlock {
+    display: grid;
+    grid-template-areas: 
+    "view"
+    "add"
+    "comments";
+    grid-template-columns: 1fr;
+    padding: 5px;
+    background-color: #aaa;
+}
+
+
+
+.showHide {
+    grid-area: view;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.comments {
+    display: block;
+    grid-area: comments;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.commenter {
+    font-size: 0.8rem;
+}
